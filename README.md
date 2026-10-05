@@ -41,7 +41,7 @@ When sales need to be analysed over several years, this tool comes in. To recalc
 
 ### ⚙️ [Everyday Excel and Outlook automation](https://github.com/NandesHungarian/Automation-Portfolio/tree/main/VBA)
 
-Smaller VBA macros that replace the manual tasks of the day. Together they save more than 20 hours a month.
+Smaller VBA macros that replace the manual tasks of the day. Together they save around 30 hours a month.
 
 - [Finds today's report email](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Email_Attachment_Importer.vba) in Outlook with one click and pastes its Excel attachment into the right sheet. Easy to reuse for other daily emails
 - [Prepares a daily email for each partner](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Aviso_Automation.vba) showing what they collected and what is still waiting, using their own template. Usually 5–15 partners a day. The emails open as drafts for a final check, saving about an hour a day
