@@ -48,7 +48,7 @@ Smaller VBA macros that replace the manual tasks of the day. Together they save 
 - [Sends the daily price table](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/FCA_Price_Indication_Emailer.vba) as an image in an email and saves the prices to a log sheet, so the price history is always ready for a chart
 - [Sends each regional colleague their part of the monthly coverage table](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Regional_Coverage_Report_Distributor.vba), then [pulls the returned files back](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Incoming_Data_Consolidator.vba) into the master table. This used to mean opening 13+ files by hand and saves 3–4 hours a month. It was my first macro
 - [Calculates soybean meal averages](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Period_Average_Calculator.vba) for the same periods as sunflower and rapeseed meal prices, even though the two files store dates differently
-- [Sends daily prices to three partner groups](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Tiered_Pricing_and_Deviation_Tracker.vba) (standard, broker, end user), each with its own price tables in the email, and logs every period's price against the reference price
+- [Sends daily prices to three partner groups](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Partner_Group_Prices.vba) (standard, broker, end user), each with its own price tables in the email, and logs every period's price against the reference price
 
 ---
 
