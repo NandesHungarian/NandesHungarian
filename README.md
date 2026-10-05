@@ -9,7 +9,7 @@ I'm a food industry engineer with a background in agricultural commodity trading
 
 A lot of time in trading goes into routine tasks. Opening emails one by one, copying their contents into Excel, pulling reports from SAP, sending the same kind of delivery notice to every customer. I automated these with Python and VBA. A macro reads the inbox and imports the data, customers automatically get an email about yesterday's deliveries, and the sales report that used to take an hour every morning now runs on its own. The tools are not rigid. They adapt to the date, the product, the customer and other changing details.
 
-I'm now based in Malta and looking for a role where I can help people replace manual work with automation and Excel development. My aim is always the same. People should get to the point where their experience is really needed much faster, and spend that time on decisions instead of copy-paste.
+I'm now based in Malta and looking for a role where I can help people replace manual work with automation and Excel development. My aim is always the same. People should get to the point where their experience is really needed much faster, and spend that time on decision making instead of copy-paste.
 
 ---
 
