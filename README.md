@@ -45,7 +45,7 @@ Smaller VBA macros that replace the manual tasks of the day. Together they save 
 
 - [Finds today's report email](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Email_Attachment_Importer.vba) in Outlook with one click and pastes its Excel attachment into the right sheet. Easy to reuse for other daily emails
 - [Prepares a daily email for each partner](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Aviso_Automation.vba) showing what they collected and what is still waiting, using their own template. Usually 5–15 partners a day. The emails open as drafts for a final check, saving about an hour a day
-- [Sends each partner their own price offers](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/FCA_Price_Indication_Emailer.vba), based on their region
+- [Sends the daily price table](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/FCA_Price_Indication_Emailer.vba) as an image in an email and saves the prices to a log sheet, so the price history is always ready for a chart
 - [Splits the weekly report](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Regional_Coverage_Report_Distributor.vba) and emails each regional colleague their part
 - [Merges data files](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Incoming_Data_Consolidator.vba) from regional teams into one clean table without duplicates
 - [Calculates weighted average prices](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Period_Average_Calculator.vba) for any chosen period
