@@ -48,7 +48,7 @@ Smaller VBA macros that replace the manual tasks of the day. Together they save 
 - [Sends the daily price table](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/FCA_Price_Indication_Emailer.vba) as an image in an email and saves the prices to a log sheet, so the price history is always ready for a chart
 - [Splits the weekly report](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Regional_Coverage_Report_Distributor.vba) and emails each regional colleague their part
 - [Merges data files](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Incoming_Data_Consolidator.vba) from regional teams into one clean table without duplicates
-- [Calculates weighted average prices](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Period_Average_Calculator.vba) for any chosen period
+- [Calculates soybean meal averages](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Period_Average_Calculator.vba) for the same periods as sunflower and rapeseed meal prices, even though the two files store dates differently
 - [Flags contracts](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Tiered_Pricing_and_Deviation_Tracker.vba) booked outside the approved price grid
 
 ---
