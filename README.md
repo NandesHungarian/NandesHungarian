@@ -29,17 +29,17 @@ I'm now based in Malta and looking for a role where I can help people replace ma
 
 ## Projects
 
-### 🗺️ [SAP sales report and logistics map](https://github.com/NandesHungarian/SAP_AgriTrade_Automation)
+### [SAP sales report and logistics map](https://github.com/NandesHungarian/SAP_AgriTrade_Automation)
 
 Every morning the sales report had to be pulled from SAP, converted to EUR with the day's exchange rates and formatted for management. This took 45 to 60 minutes. Now a Python script does it in a single run. It logs into SAP, exports the report, converts the prices, asks for any missing freight cost in a small popup window and builds the summary table. At the end it can draw an interactive map showing where the goods are going.
 
 ![Interactive logistics map](https://raw.githubusercontent.com/NandesHungarian/SAP_AgriTrade_Automation/main/images/logistics_map.jpg)
 
-### 📈 [Historical Trade Data Analyzer](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/Python/Historical_Trade_Data_Analyzer.py)
+### [Historical Trade Data Analyzer](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/Python/Historical_Trade_Data_Analyzer.py)
 
 When sales need to be analysed over several years, this tool comes in. To recalculate past sales from HUF to EUR or USD accurately, it needs the forward rates that were valid on each day. These are stored in hundreds of daily Excel files. The script opens all of them, matches every contract to the right day's rates and converts the prices. pandas keeps this fast even with years of data.
 
-### ⚙️ [Everyday Excel and Outlook automation](https://github.com/NandesHungarian/Automation-Portfolio/tree/main/VBA)
+### [Everyday Excel and Outlook automation](https://github.com/NandesHungarian/Automation-Portfolio/tree/main/VBA)
 
 Smaller VBA macros that replace the manual tasks of the day. Together they save around 30 hours a month.
 
