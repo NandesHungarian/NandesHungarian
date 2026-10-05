@@ -29,17 +29,27 @@ I'm now based in Malta and looking for a role where I can help people replace ma
 
 ## Projects
 
-### 🤖 [Automation Portfolio](https://github.com/NandesHungarian/Automation-Portfolio)
+### 🗺️ [SAP sales report and logistics map](https://github.com/NandesHungarian/SAP_AgriTrade_Automation)
 
-Python and VBA tools for agricultural trading, logistics, and business reporting.
+Every morning the sales report had to be pulled from SAP, converted to EUR with the day's exchange rates and formatted for management. This took 45 to 60 minutes. Now a Python script does it in a single run. It logs into SAP, exports the report, converts the prices, asks for any missing freight cost in a small popup window and builds the summary table. At the end it can draw an interactive map showing where the goods are going.
 
-- **SAP Sales & Logistics Workflow Automation:** SAP login → export → FX conversion → missing-freight detection (Tkinter popup) → formatted management report → interactive HTML logistics map. Replaces a daily 45–90 min manual process.
-- **VBA macros:** logistics dispatch emails, FCA price offer distribution, Outlook attachment import, weighted average calculators, data consolidation, report splitting. Together they save 20+ hours/month.
-- **Historical Trade Data Analyzer:** matches multi-year contract history to the FX and pricing data valid on each date, then exports weighted-average summaries.
+![Interactive logistics map](https://raw.githubusercontent.com/NandesHungarian/SAP_AgriTrade_Automation/main/docs/images/logistics_map.jpg)
 
-### 🗺️ [SAP AgriTrade Automation](https://github.com/NandesHungarian/SAP_AgriTrade_Automation)
+### 📈 [Historical Trade Data Analyzer](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/Python/Historical_Trade_Data_Analyzer.py)
 
-The SAP reporting pipeline as a standalone project with full architecture and setup documentation.
+When sales need to be analysed over several years, this tool comes in. To recalculate past sales from HUF to EUR or USD accurately, it needs the forward rates that were valid on each day. These are stored in hundreds of daily Excel files. The script opens all of them, matches every contract to the right day's rates and converts the prices. pandas keeps this fast even with years of data.
+
+### ⚙️ [Everyday Excel and Outlook automation](https://github.com/NandesHungarian/Automation-Portfolio/tree/main/VBA)
+
+Smaller VBA macros that replace the manual tasks of the day. Together they save more than 20 hours a month.
+
+- [Picks up the daily report email](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Email_Attachment_Importer.vba) and imports its Excel attachment
+- [Sends delivery notices](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Aviso_Automation.vba) to logistics partners from Outlook templates, saving about an hour a day
+- [Sends each partner their own price offers](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/FCA_Price_Indication_Emailer.vba), based on their region
+- [Splits the weekly report](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Regional_Coverage_Report_Distributor.vba) and emails each regional colleague their part
+- [Merges data files](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Incoming_Data_Consolidator.vba) from regional teams into one clean table without duplicates
+- [Calculates weighted average prices](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Period_Average_Calculator.vba) for any chosen period
+- [Flags contracts](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Tiered_Pricing_and_Deviation_Tracker.vba) booked outside the approved price grid
 
 ---
 
