@@ -7,7 +7,7 @@ Malta · magyarnana97@gmail.com
 
 I'm a food industry engineer with a background in agricultural commodity trading. Alongside trading, I built tools that took the repetitive manual work off the desk.
 
-A lot of time in trading goes into routine tasks. Opening emails one by one, copying their contents into Excel, pulling reports from SAP, sending the same kind of delivery notice to every customer. I automated these with Python and VBA. A macro reads the inbox and imports the data, customers automatically get an email about yesterday's deliveries, and the sales report that used to take an hour every morning now runs on its own. The tools are not rigid. They adapt to the date, the product, the customer and other changing details.
+A lot of time in trading goes into routine tasks. Opening emails one by one, copying their contents into Excel, pulling reports from SAP, sending the same kind of delivery notice to every customer. I automated these with Python and VBA. A macro reads the inbox and imports the data, every partner gets a ready-to-check email about yesterday's pickups, and the sales report that used to take an hour every morning now runs on its own. The tools are not rigid. They adapt to the date, the product, the customer and other changing details.
 
 I'm now based in Malta and looking for a role where I can help people replace manual work with automation and Excel development. My aim is always the same. People should get to the point where their experience is really needed much faster, and spend that time on decision making instead of copy-paste.
 
@@ -43,8 +43,8 @@ When sales need to be analysed over several years, this tool comes in. To recalc
 
 Smaller VBA macros that replace the manual tasks of the day. Together they save more than 20 hours a month.
 
-- [Picks up the daily report email](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Email_Attachment_Importer.vba) and imports its Excel attachment
-- [Sends delivery notices](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Aviso_Automation.vba) to logistics partners from Outlook templates, saving about an hour a day
+- [Finds today's report email](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Email_Attachment_Importer.vba) in Outlook with one click and pastes its Excel attachment into the right sheet. Easy to reuse for other daily emails
+- [Prepares a daily email for each partner](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Aviso_Automation.vba) showing what they collected and what is still waiting, using their own template. The emails open as drafts for a final check, saving about an hour a day
 - [Sends each partner their own price offers](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/FCA_Price_Indication_Emailer.vba), based on their region
 - [Splits the weekly report](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Regional_Coverage_Report_Distributor.vba) and emails each regional colleague their part
 - [Merges data files](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Incoming_Data_Consolidator.vba) from regional teams into one clean table without duplicates
