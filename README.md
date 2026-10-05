@@ -5,7 +5,9 @@ Budapest, Hungary · magyarnana97@gmail.com
 
 ---
 
-I work in **agricultural commodity trading** and build automation tools to eliminate the manual, repetitive parts of the job. Most of what I write solves a real problem I hit at work: a report that took an hour every morning, a pricing workflow that broke when someone forgot a freight rate, a logistics summary assembled by hand from three different systems.
+I work in **agricultural commodity trading** and build automation tools to eliminate the manual, repetitive parts of the job. Most of what I write solves a real problem I ran into at work, like a report that used to take an hour every morning.
+
+Instead of opening emails one by one and pasting their contents into Excel by hand, a VBA macro goes through the inbox and pulls the data in. Customers automatically get an email about yesterday's deliveries. The tools take over the copy-paste work, but they are not rigid. They adapt to the date, the product, the customer and other changing details. This way a trader gets to the point where their experience is really needed much faster, and can spend more time on actual business decisions.
 
 My tools connect **SAP ERP, Excel and Outlook** through **Python** and **VBA**, turning multi-step manual processes into a single run.
 
