@@ -1,15 +1,15 @@
 # Nándor Magyar
 
-**Automation Developer · Food Industry Engineer · Agricultural Commodity Trading**
-Budapest, Hungary · magyarnana97@gmail.com
+**Automation & Excel Developer · Food Industry Engineer · Agricultural Commodity Trading**
+Malta · magyarnana97@gmail.com
 
 ---
 
-I work in **agricultural commodity trading** and build automation tools to eliminate the manual, repetitive parts of the job. Most of what I write solves a real problem I ran into at work, like a report that used to take an hour every morning.
+I'm a food industry engineer with a background in agricultural commodity trading. Alongside trading, I built tools that took the repetitive manual work off the desk.
 
-Instead of opening emails one by one and pasting their contents into Excel by hand, a VBA macro goes through the inbox and pulls the data in. Customers automatically get an email about yesterday's deliveries. The tools take over the copy-paste work, but they are not rigid. They adapt to the date, the product, the customer and other changing details. This way a trader gets to the point where their experience is really needed much faster, and can spend more time on actual business decisions.
+A lot of time in trading goes into routine tasks. Opening emails one by one, copying their contents into Excel, pulling reports from SAP, sending the same kind of delivery notice to every customer. I automated these with Python and VBA. A macro reads the inbox and imports the data, customers automatically get an email about yesterday's deliveries, and the sales report that used to take an hour every morning now runs on its own. The tools are not rigid. They adapt to the date, the product, the customer and other changing details.
 
-My tools connect **SAP ERP, Excel and Outlook** through **Python** and **VBA**, turning multi-step manual processes into a single run.
+I'm now based in Malta and looking for a role where I can help people replace manual work with automation and Excel development. My aim is always the same. People should get to the point where their experience is really needed much faster, and spend that time on decisions instead of copy-paste.
 
 ---
 
