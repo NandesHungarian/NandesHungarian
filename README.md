@@ -1,7 +1,7 @@
 # Nándor Magyar
 
 **Automation & Excel Developer · Food Industry Engineer · Agricultural Commodity Trading**
-Malta · magyarnana97@gmail.com
+Malta · magyarnana97@gmail.com · [LinkedIn](https://www.linkedin.com/in/nandor-magyar-1997nm/)
 
 ---
 
@@ -13,7 +13,7 @@ I'm now based in Malta and looking for a role where I can help people replace ma
 
 ---
 
-## What I Work With
+## What I work with
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
@@ -29,13 +29,15 @@ I'm now based in Malta and looking for a role where I can help people replace ma
 
 ## Projects
 
+Together these tools save about 45 hours a month.
+
 ### [SAP sales report and logistics map](https://github.com/NandesHungarian/SAP_AgriTrade_Automation)
 
 Every morning the sales report had to be pulled from SAP, converted to EUR with the day's exchange rates and formatted for management. This took 45 to 60 minutes. Now a Python script does it in a single run. It logs into SAP, exports the report, converts the prices, asks for any missing freight cost in a small popup window and builds the summary table. At the end it can draw an interactive map showing where the goods are going.
 
 ![Interactive logistics map](https://raw.githubusercontent.com/NandesHungarian/SAP_AgriTrade_Automation/main/images/logistics_map.jpg)
 
-### [Historical Trade Data Analyzer](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/Python/Historical_Trade_Data_Analyzer.py)
+### [Historical Trade Data Analyzer](https://github.com/NandesHungarian/Automation-Portfolio/tree/main/Python)
 
 When sales need to be analysed over several years, this tool comes in. To recalculate past sales from HUF to EUR or USD accurately, it needs the forward rates that were valid on each day. These are stored in hundreds of daily Excel files. The script opens all of them, matches every contract to the right day's rates and converts the prices. pandas keeps this fast even with years of data.
 
@@ -43,12 +45,12 @@ When sales need to be analysed over several years, this tool comes in. To recalc
 
 Smaller VBA macros that replace the manual tasks of the day. Together they save around 30 hours a month.
 
-- [Finds today's report email](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Email_Attachment_Importer.vba) in Outlook with one click and pastes its Excel attachment into the right sheet. Easy to reuse for other daily emails
 - [Prepares a daily email for each partner](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Aviso_Automation.vba) showing what they collected and what is still waiting, using their own template. Usually 5–15 partners a day. The emails open as drafts for a final check, saving about an hour a day
-- [Sends the daily price table](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/FCA_Price_Indication_Emailer.vba) as an image in an email and saves the prices to a log sheet, so the price history is always ready for a chart
 - [Sends each regional colleague their part of the monthly coverage table](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Regional_Coverage_Report_Distributor.vba), then [pulls the returned files back](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Incoming_Data_Consolidator.vba) into the master table. This used to mean opening 13+ files by hand and saves 3–4 hours a month. It was my first macro
-- [Calculates soybean meal averages](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Period_Average_Calculator.vba) for the same periods as sunflower and rapeseed meal prices, even though the two files store dates differently
 - [Sends daily prices to three partner groups](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Partner_Group_Prices.vba) (standard, broker, end user), each with its own price tables in the email, and logs every period's price against the reference price
+- [Sends the daily price table](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/FCA_Price_Indication_Emailer.vba) as an image in an email and saves the prices to a log sheet, so the price history is always ready for a chart
+- [Finds today's report email](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Email_Attachment_Importer.vba) in Outlook with one click and pastes its Excel attachment into the right sheet. Easy to reuse for other daily emails
+- [Calculates soybean meal averages](https://github.com/NandesHungarian/Automation-Portfolio/blob/main/VBA/Period_Average_Calculator.vba) for the same periods as sunflower and rapeseed meal prices, even though the two files store dates differently
 
 ---
 
