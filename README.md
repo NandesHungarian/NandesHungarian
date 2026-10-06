@@ -29,7 +29,7 @@ I'm now based in Malta and looking for a role where I can help people replace ma
 
 ## Projects
 
-Together these tools save about 45 hours a month.
+In total these tools save about 45 hours a month.
 
 ### [SAP sales report and logistics map](https://github.com/NandesHungarian/SAP_AgriTrade_Automation)
 
